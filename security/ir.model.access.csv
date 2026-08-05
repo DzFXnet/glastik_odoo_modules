@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_dzfx_task,dzfx.task,model_dzfx_task,,1,1,1,1
+access_dzfx_partner,dzfx.partner,model_dzfx_partner,,1,1,1,1
+access_dzfx_project,dzfx.project,model_dzfx_project,,1,1,1,1
+access_dzfx_product,dzfx.product,model_dzfx_product,,1,1,1,1
+
+
