@@ -1,0 +1,29 @@
+﻿<odoo>
+
+    <!-- LIST VIEW -->
+    <record id="view_dzfx_project_list" model="ir.ui.view">
+        <field name="name">dzfx.project.list</field>
+        <field name="model">dzfx.project</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- FORM VIEW -->
+    <record id="view_dzfx_project_form" model="ir.ui.view">
+        <field name="name">dzfx.project.form</field>
+        <field name="model">dzfx.project</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+</odoo>

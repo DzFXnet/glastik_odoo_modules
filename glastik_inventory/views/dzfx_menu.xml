@@ -1,0 +1,50 @@
+﻿<odoo>
+
+    <menuitem id="dzfx_root_menu" name="Glastik.Inventory" sequence="10"/>
+
+    <record id="dzfx_tasks_action" model="ir.actions.act_window">
+        <field name="name">Tasks</field>
+        <field name="res_model">dzfx.task</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <menuitem id="dzfx_menu_tasks"
+              parent="dzfx_root_menu"
+              name="TASKS"
+              action="dzfx_tasks_action"
+              sequence="1"/>
+
+    <record id="dzfx_partners_action" model="ir.actions.act_window">
+        <field name="name">Partners</field>
+        <field name="res_model">dzfx.partner</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <menuitem id="dzfx_menu_partners"
+              parent="dzfx_root_menu"
+              name="Partners"
+              action="dzfx_partners_action"/>
+
+    <record id="dzfx_projects_action" model="ir.actions.act_window">
+        <field name="name">Projects</field>
+        <field name="res_model">dzfx.project</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <menuitem id="dzfx_menu_projects"
+              parent="dzfx_root_menu"
+              name="Projects"
+              action="dzfx_projects_action"/>
+
+    <record id="dzfx_products_action" model="ir.actions.act_window">
+        <field name="name">Products</field>
+        <field name="res_model">dzfx.product</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <menuitem id="dzfx_menu_products"
+              parent="dzfx_root_menu"
+              name="Products"
+              action="dzfx_products_action"/>
+
+</odoo>

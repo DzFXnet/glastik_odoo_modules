@@ -1,0 +1,25 @@
+﻿<odoo>
+    <record id="view_dzfx_partner_list" model="ir.ui.view">
+        <field name="name">dzfx.partner.list</field>
+        <field name="model">dzfx.partner</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_dzfx_partner_form" model="ir.ui.view">
+        <field name="name">dzfx.partner.form</field>
+        <field name="model">dzfx.partner</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>
