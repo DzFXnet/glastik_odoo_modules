@@ -4,6 +4,8 @@
     'summary': 'Basic inventory-related entities (tasks, partners, projects, products)',
     'description': 'Inventory tools module for Odoo.',
     'author': 'Dzintars',
+    'license': 'LGPL-3',
+    
     'category': 'Inventory',
     'depends': ['base', 'base_setup'],
 
